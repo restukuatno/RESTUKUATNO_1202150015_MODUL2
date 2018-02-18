@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context="com.example.android.restukuatno_1202150015_modul2.DetailMenu">
+
+    <ImageView
+        android:id="@+id/GambarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/pringsewu_gurame"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/NamaMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gurame Bakar"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/HargaMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 30000"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:textSize="18dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ikan Gurame"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+</LinearLayout>
+
+
+

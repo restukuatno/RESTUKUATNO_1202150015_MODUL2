@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/Gambarmenu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/pringsewu_gurame" />
+
+    <TextView
+        android:id="@+id/Namamenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Gambarmenu"
+        android:paddingTop="15dp"
+        android:text="Gurame Bakar"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Hargamenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Namamenu"
+        android:layout_toRightOf="@+id/Gambarmenu"
+        android:text="Rp. 30.000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/IDmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hargamenu"
+        android:layout_toRightOf="@+id/Gambarmenu"
+        android:visibility="invisible"
+        android:text="ID" />
+
+    <View
+        android:layout_below="@+id/Gambarmenu"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ccc"/>
+
+</RelativeLayout>
